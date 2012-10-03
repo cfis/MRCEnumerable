@@ -430,10 +430,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					armv7,
-				);
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/MRCEnumerable.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -449,7 +445,6 @@
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
 		};
@@ -457,10 +452,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					armv7,
-				);
 				DSTROOT = /tmp/MRCEnumerable.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,7 +464,6 @@
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Release;
 		};
@@ -485,7 +475,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -499,7 +489,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -514,7 +504,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -525,10 +515,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					armv7,
-				);
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/MRCEnumerable.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -544,7 +530,6 @@
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Distribution;
 		};
@@ -588,7 +573,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -599,10 +584,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					armv7,
-				);
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/MRCEnumerable.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -618,7 +599,6 @@
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Test;
 		};
