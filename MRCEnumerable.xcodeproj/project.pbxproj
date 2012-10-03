@@ -444,7 +444,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
-				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -463,7 +462,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
-				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -529,7 +527,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
-				SDKROOT = iphoneos;
 			};
 			name = Distribution;
 		};
@@ -598,7 +595,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = MRCEnumerable;
-				SDKROOT = iphoneos;
 			};
 			name = Test;
 		};
