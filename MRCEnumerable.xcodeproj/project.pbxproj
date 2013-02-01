@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */; };
+		8B05BF2916BBA45700AA6971 /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFFBCAF133F412D00F4949D /* NSSet+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF14D46614FAE96B00501118 /* NSArray+FindIndex+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF14D46414FAE96B00501118 /* NSArray+FindIndex+Test.m */; };
 		BF1F91DE1341BD8F00F37598 /* NSSet+Collect+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91D41341BD8F00F37598 /* NSSet+Collect+Test.m */; };
@@ -19,11 +19,11 @@
 		BF1F91E51341BD8F00F37598 /* NSSet+Inject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91DB1341BD8F00F37598 /* NSSet+Inject+Test.m */; };
 		BF1F91E61341BD8F00F37598 /* NSSet+Reject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91DC1341BD8F00F37598 /* NSSet+Reject+Test.m */; };
 		BF1F91E71341BD8F00F37598 /* NSSet+Select+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91DD1341BD8F00F37598 /* NSSet+Select+Test.m */; };
-		BF1F91EA1341BF4B00F37598 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */; };
+		BF1F91EA1341BF4B00F37598 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF1F91EB1341BF4B00F37598 /* NSSet+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91E91341BF4B00F37598 /* NSSet+Utilities.m */; };
-		BF8326DF12927FB0002BF27D /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326DD12927FB0002BF27D /* NSArray+Enumerable.h */; };
+		BF8326DF12927FB0002BF27D /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326DD12927FB0002BF27D /* NSArray+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF8326E012927FB0002BF27D /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8326DE12927FB0002BF27D /* NSArray+Enumerable.m */; };
-		BF8326E912928002002BF27D /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326E712928002002BF27D /* NSArray+Utilities.h */; };
+		BF8326E912928002002BF27D /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326E712928002002BF27D /* NSArray+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF8326EA12928002002BF27D /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8326E812928002002BF27D /* NSArray+Utilities.m */; };
 		BF83281C1292857B002BF27D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF83281D1292857B002BF27D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF83274E12928536002BF27D /* UIKit.framework */; };
@@ -285,9 +285,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */,
 				BF8326DF12927FB0002BF27D /* NSArray+Enumerable.h in Headers */,
 				BF8326E912928002002BF27D /* NSArray+Utilities.h in Headers */,
+				8B05BF2916BBA45700AA6971 /* NSSet+Enumerable.h in Headers */,
 				BF1F91EA1341BF4B00F37598 /* NSSet+Utilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +475,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -489,6 +491,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -504,6 +508,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -572,6 +578,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
