@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8B05BF2916BBA45700AA6971 /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFFBCAF133F412D00F4949D /* NSSet+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B95896417014ABF00267433 /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF832A2C12951E86002BF27D /* MRCEnumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B95896517014ABF00267433 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF14D46614FAE96B00501118 /* NSArray+FindIndex+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF14D46414FAE96B00501118 /* NSArray+FindIndex+Test.m */; };
 		BF1F91DE1341BD8F00F37598 /* NSSet+Collect+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91D41341BD8F00F37598 /* NSSet+Collect+Test.m */; };
@@ -289,6 +291,8 @@
 				BF8326E912928002002BF27D /* NSArray+Utilities.h in Headers */,
 				8B05BF2916BBA45700AA6971 /* NSSet+Enumerable.h in Headers */,
 				BF1F91EA1341BF4B00F37598 /* NSSet+Utilities.h in Headers */,
+				8B95896417014ABF00267433 /* MRCEnumerable.h in Headers */,
+				8B95896517014ABF00267433 /* NSDictionary+Enumerable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
