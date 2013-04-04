@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8B05BF2916BBA45700AA6971 /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFFBCAF133F412D00F4949D /* NSSet+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B39E694170A25F700AD3BB9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B39E693170A25F700AD3BB9 /* Cocoa.framework */; };
+		8B39E69E170A25F700AD3BB9 /* MRCEnumerableOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B39E69D170A25F700AD3BB9 /* MRCEnumerableOSX.m */; };
+		8B39E6A4170A260C00AD3BB9 /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF832A2C12951E86002BF27D /* MRCEnumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B39E6A5170A260C00AD3BB9 /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326E712928002002BF27D /* NSArray+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B39E6A6170A260C00AD3BB9 /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8326DD12927FB0002BF27D /* NSArray+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B39E6A7170A260C00AD3BB9 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B39E6A8170A260C00AD3BB9 /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFFBCAF133F412D00F4949D /* NSSet+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B39E6A9170A260C00AD3BB9 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B95896417014ABF00267433 /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF832A2C12951E86002BF27D /* MRCEnumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B95896517014ABF00267433 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -66,6 +74,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B39E692170A25F700AD3BB9 /* libMRCEnumerableOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRCEnumerableOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B39E693170A25F700AD3BB9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		8B39E696170A25F700AD3BB9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8B39E697170A25F700AD3BB9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8B39E698170A25F700AD3BB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B39E69B170A25F700AD3BB9 /* MRCEnumerableOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MRCEnumerableOSX-Prefix.pch"; sourceTree = "<group>"; };
+		8B39E69C170A25F700AD3BB9 /* MRCEnumerableOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRCEnumerableOSX.h; sourceTree = "<group>"; };
+		8B39E69D170A25F700AD3BB9 /* MRCEnumerableOSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRCEnumerableOSX.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCEnumerable_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF14D46414FAE96B00501118 /* NSArray+FindIndex+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FindIndex+Test.m"; path = "Tests/NSArray+FindIndex+Test.m"; sourceTree = "<group>"; };
@@ -114,6 +130,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8B39E68F170A25F700AD3BB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39E694170A25F700AD3BB9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF83272512928493002BF27D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +166,7 @@
 			children = (
 				D2AAC07E0554694100DB518D /* libMRCEnumerable.a */,
 				BF83272712928493002BF27D /* Tests.app */,
+				8B39E692170A25F700AD3BB9 /* libMRCEnumerableOSX.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +176,7 @@
 			children = (
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
+				8B39E699170A25F700AD3BB9 /* MRCEnumerableOSX */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				BF832824129285C6002BF27D /* Tests */,
@@ -166,6 +192,8 @@
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 				BF83274E12928536002BF27D /* UIKit.framework */,
 				BF83274B12928536002BF27D /* CoreGraphics.framework */,
+				8B39E693170A25F700AD3BB9 /* Cocoa.framework */,
+				8B39E695170A25F700AD3BB9 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -194,6 +222,34 @@
 				AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		8B39E695170A25F700AD3BB9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B39E696170A25F700AD3BB9 /* AppKit.framework */,
+				8B39E697170A25F700AD3BB9 /* CoreData.framework */,
+				8B39E698170A25F700AD3BB9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8B39E699170A25F700AD3BB9 /* MRCEnumerableOSX */ = {
+			isa = PBXGroup;
+			children = (
+				8B39E69C170A25F700AD3BB9 /* MRCEnumerableOSX.h */,
+				8B39E69D170A25F700AD3BB9 /* MRCEnumerableOSX.m */,
+				8B39E69A170A25F700AD3BB9 /* Supporting Files */,
+			);
+			path = MRCEnumerableOSX;
+			sourceTree = "<group>";
+		};
+		8B39E69A170A25F700AD3BB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B39E69B170A25F700AD3BB9 /* MRCEnumerableOSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		BF1F91D11341BC9500F37598 /* NSDictionary */ = {
@@ -272,6 +328,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8B39E690170A25F700AD3BB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39E6A6170A260C00AD3BB9 /* NSArray+Enumerable.h in Headers */,
+				8B39E6A5170A260C00AD3BB9 /* NSArray+Utilities.h in Headers */,
+				8B39E6A4170A260C00AD3BB9 /* MRCEnumerable.h in Headers */,
+				8B39E6A7170A260C00AD3BB9 /* NSDictionary+Enumerable.h in Headers */,
+				8B39E6A8170A260C00AD3BB9 /* NSSet+Enumerable.h in Headers */,
+				8B39E6A9170A260C00AD3BB9 /* NSSet+Utilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF83286F12928714002BF27D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +368,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8B39E691170A25F700AD3BB9 /* MRCEnumerableOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B39E69F170A25F700AD3BB9 /* Build configuration list for PBXNativeTarget "MRCEnumerableOSX" */;
+			buildPhases = (
+				8B39E68E170A25F700AD3BB9 /* Sources */,
+				8B39E68F170A25F700AD3BB9 /* Frameworks */,
+				8B39E690170A25F700AD3BB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRCEnumerableOSX;
+			productName = MRCEnumerableOSX;
+			productReference = 8B39E692170A25F700AD3BB9 /* libMRCEnumerableOSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		BF83272612928493002BF27D /* Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF83272C12928494002BF27D /* Build configuration list for PBXNativeTarget "Tests" */;
@@ -359,6 +445,7 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* MRCEnumerable */,
+				8B39E691170A25F700AD3BB9 /* MRCEnumerableOSX */,
 				BF83272612928493002BF27D /* Tests */,
 			);
 		};
@@ -375,6 +462,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8B39E68E170A25F700AD3BB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39E69E170A25F700AD3BB9 /* MRCEnumerableOSX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF83272412928493002BF27D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -499,6 +594,132 @@
 				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8B39E6A0170A25F700AD3BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRCEnumerableOSX/MRCEnumerableOSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B39E6A1170A25F700AD3BB9 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRCEnumerableOSX/MRCEnumerableOSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Test;
+		};
+		8B39E6A2170A25F700AD3BB9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRCEnumerableOSX/MRCEnumerableOSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Distribution;
+		};
+		8B39E6A3170A25F700AD3BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MRCEnumerableOSX/MRCEnumerableOSX-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -730,6 +951,16 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8B39E69F170A25F700AD3BB9 /* Build configuration list for PBXNativeTarget "MRCEnumerableOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B39E6A0170A25F700AD3BB9 /* Debug */,
+				8B39E6A1170A25F700AD3BB9 /* Test */,
+				8B39E6A2170A25F700AD3BB9 /* Distribution */,
+				8B39E6A3170A25F700AD3BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		BF83272C12928494002BF27D /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
