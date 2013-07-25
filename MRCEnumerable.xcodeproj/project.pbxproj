@@ -18,6 +18,11 @@
 		8B39E6A9170A260C00AD3BB9 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1F91E81341BF4B00F37598 /* NSSet+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B95896417014ABF00267433 /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF832A2C12951E86002BF27D /* MRCEnumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B95896517014ABF00267433 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC00DB61293741A00F203B3 /* NSDictionary+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BBCBF3417A0F7D6001D1338 /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8326E812928002002BF27D /* NSArray+Utilities.m */; };
+		8BBCBF3517A0F7D6001D1338 /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8326DE12927FB0002BF27D /* NSArray+Enumerable.m */; };
+		8BBCBF3617A0F7D6001D1338 /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC00DB71293741A00F203B3 /* NSDictionary+Enumerable.m */; };
+		8BBCBF3717A0F7D6001D1338 /* NSSet+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFFBCB0133F412D00F4949D /* NSSet+Enumerable.m */; };
+		8BBCBF3817A0F7D6001D1338 /* NSSet+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91E91341BF4B00F37598 /* NSSet+Utilities.m */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF14D46614FAE96B00501118 /* NSArray+FindIndex+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF14D46414FAE96B00501118 /* NSArray+FindIndex+Test.m */; };
 		BF1F91DE1341BD8F00F37598 /* NSSet+Collect+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1F91D41341BD8F00F37598 /* NSSet+Collect+Test.m */; };
@@ -467,6 +472,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B39E69E170A25F700AD3BB9 /* MRCEnumerableOSX.m in Sources */,
+				8BBCBF3417A0F7D6001D1338 /* NSArray+Utilities.m in Sources */,
+				8BBCBF3517A0F7D6001D1338 /* NSArray+Enumerable.m in Sources */,
+				8BBCBF3617A0F7D6001D1338 /* NSDictionary+Enumerable.m in Sources */,
+				8BBCBF3717A0F7D6001D1338 /* NSSet+Enumerable.m in Sources */,
+				8BBCBF3817A0F7D6001D1338 /* NSSet+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -961,6 +971,7 @@
 				8B39E6A3170A25F700AD3BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF83272C12928494002BF27D /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
