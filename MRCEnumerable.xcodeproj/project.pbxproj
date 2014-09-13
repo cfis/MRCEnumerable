@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BC2C36B19C4C78C00250454 /* MRCEnumerableOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC2C36A19C4C78C00250454 /* MRCEnumerableOSX.h */; };
+		8BC2C36B19C4C78C00250454 /* MRCEnumerableOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC2C36A19C4C78C00250454 /* MRCEnumerableOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BC2C36D19C4C78C00250454 /* MRCEnumerableOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2C36C19C4C78C00250454 /* MRCEnumerableOSX.m */; };
-		8BC2C38819C4C86400250454 /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C874177EF8340057E88B /* MRCEnumerable.h */; };
-		8BC2C38919C4C86400250454 /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C875177EF8340057E88B /* NSArray+Enumerable.h */; };
+		8BC2C38819C4C86400250454 /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C874177EF8340057E88B /* MRCEnumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC2C38919C4C86400250454 /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C875177EF8340057E88B /* NSArray+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BC2C38A19C4C86400250454 /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C876177EF8340057E88B /* NSArray+Enumerable.m */; };
-		8BC2C38B19C4C86400250454 /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C877177EF8340057E88B /* NSArray+Utilities.h */; };
+		8BC2C38B19C4C86400250454 /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C877177EF8340057E88B /* NSArray+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BC2C38C19C4C86400250454 /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C878177EF8340057E88B /* NSArray+Utilities.m */; };
-		8BC2C38D19C4C86400250454 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C879177EF8340057E88B /* NSDictionary+Enumerable.h */; };
+		8BC2C38D19C4C86400250454 /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C879177EF8340057E88B /* NSDictionary+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BC2C38E19C4C86400250454 /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87A177EF8340057E88B /* NSDictionary+Enumerable.m */; };
-		8BC2C38F19C4C86400250454 /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87B177EF8340057E88B /* NSSet+Enumerable.h */; };
+		8BC2C38F19C4C86400250454 /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87B177EF8340057E88B /* NSSet+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BC2C39019C4C86400250454 /* NSSet+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87C177EF8340057E88B /* NSSet+Enumerable.m */; };
-		8BC2C39119C4C86400250454 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87D177EF8340057E88B /* NSSet+Utilities.h */; };
+		8BC2C39119C4C86400250454 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87D177EF8340057E88B /* NSSet+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BC2C39219C4C86400250454 /* NSSet+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87E177EF8340057E88B /* NSSet+Utilities.m */; };
 		AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -102,7 +102,6 @@
 		8BC2C36819C4C78C00250454 /* libMRCEnumerableOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMRCEnumerableOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC2C36A19C4C78C00250454 /* MRCEnumerableOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRCEnumerableOSX.h; sourceTree = "<group>"; };
 		8BC2C36C19C4C78C00250454 /* MRCEnumerableOSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRCEnumerableOSX.m; sourceTree = "<group>"; };
-		8BC2C37519C4C78C00250454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCEnumerable_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF0A91FA1776C76000C461D2 /* NSArray+Join+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Join+Test.m"; sourceTree = "<group>"; };
@@ -231,7 +230,6 @@
 				BF98AF2D1776B92B0094B77C /* Tests */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				8BC2C36919C4C78C00250454 /* MRCEnumerableOSX */,
-				8BC2C37319C4C78C00250454 /* MRCEnumerableOSXTests */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 				BF832A0A12929C90002BF27D /* README.md */,
@@ -266,22 +264,6 @@
 				8BC2C36C19C4C78C00250454 /* MRCEnumerableOSX.m */,
 			);
 			path = MRCEnumerableOSX;
-			sourceTree = "<group>";
-		};
-		8BC2C37319C4C78C00250454 /* MRCEnumerableOSXTests */ = {
-			isa = PBXGroup;
-			children = (
-				8BC2C37419C4C78C00250454 /* Supporting Files */,
-			);
-			path = MRCEnumerableOSXTests;
-			sourceTree = "<group>";
-		};
-		8BC2C37419C4C78C00250454 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8BC2C37519C4C78C00250454 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		BF42C873177EF8340057E88B /* Classes */ = {
@@ -816,6 +798,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -851,6 +834,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -1054,6 +1038,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 			};
 			name = Distribution;
@@ -1257,6 +1242,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 			};
 			name = Test;
@@ -1535,6 +1521,7 @@
 				8BC2C37719C4C78C00250454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF98AED21776B8BE0094B77C /* Build configuration list for PBXNativeTarget "Tests/NSArray" */ = {
 			isa = XCConfigurationList;
