@@ -20,19 +20,19 @@
 		8BC2C39019C4C86400250454 /* NSSet+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87C177EF8340057E88B /* NSSet+Enumerable.m */; };
 		8BC2C39119C4C86400250454 /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87D177EF8340057E88B /* NSSet+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BC2C39219C4C86400250454 /* NSSet+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87E177EF8340057E88B /* NSSet+Utilities.m */; };
-		AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */; };
+		AA747D9F0F9514B9006C5449 /* MRCEnumerable_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MRCEnumerable_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF0A91FB1776C76000C461D2 /* NSArray+Join+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0A91FA1776C76000C461D2 /* NSArray+Join+Test.m */; };
-		BF42C87F177EF8340057E88B /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C874177EF8340057E88B /* MRCEnumerable.h */; };
-		BF42C880177EF8340057E88B /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C875177EF8340057E88B /* NSArray+Enumerable.h */; };
+		BF42C87F177EF8340057E88B /* MRCEnumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C874177EF8340057E88B /* MRCEnumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF42C880177EF8340057E88B /* NSArray+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C875177EF8340057E88B /* NSArray+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF42C881177EF8340057E88B /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C876177EF8340057E88B /* NSArray+Enumerable.m */; };
-		BF42C882177EF8340057E88B /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C877177EF8340057E88B /* NSArray+Utilities.h */; };
+		BF42C882177EF8340057E88B /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C877177EF8340057E88B /* NSArray+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF42C883177EF8340057E88B /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C878177EF8340057E88B /* NSArray+Utilities.m */; };
-		BF42C884177EF8340057E88B /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C879177EF8340057E88B /* NSDictionary+Enumerable.h */; };
+		BF42C884177EF8340057E88B /* NSDictionary+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C879177EF8340057E88B /* NSDictionary+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF42C885177EF8340057E88B /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87A177EF8340057E88B /* NSDictionary+Enumerable.m */; };
-		BF42C886177EF8340057E88B /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87B177EF8340057E88B /* NSSet+Enumerable.h */; };
+		BF42C886177EF8340057E88B /* NSSet+Enumerable.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87B177EF8340057E88B /* NSSet+Enumerable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF42C887177EF8340057E88B /* NSSet+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87C177EF8340057E88B /* NSSet+Enumerable.m */; };
-		BF42C888177EF8340057E88B /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87D177EF8340057E88B /* NSSet+Utilities.h */; };
+		BF42C888177EF8340057E88B /* NSSet+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42C87D177EF8340057E88B /* NSSet+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF42C889177EF8340057E88B /* NSSet+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42C87E177EF8340057E88B /* NSSet+Utilities.m */; };
 		BF4A33431776BA0B00D73643 /* libMRCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMRCEnumerable.a */; };
 		BF4A33441776BA0E00D73643 /* libMRCEnumerable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMRCEnumerable.a */; };
@@ -743,6 +743,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -758,6 +759,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -798,7 +800,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -834,7 +835,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -850,6 +850,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -1038,7 +1039,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 			};
 			name = Distribution;
@@ -1054,6 +1054,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
+				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -1242,7 +1243,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include/MRCEnumerable;
 				SDKROOT = macosx;
 			};
 			name = Test;
